@@ -81,7 +81,7 @@
 	z-index: 1;
 }
 
-/* РљРЅРѕРїРєРё */
+/* Кнопки */
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -134,7 +134,7 @@
   background-color: #fff;
 }
 
-/* РРЅС‚РµСЂС„РµР№СЃ РІС‹Р±РѕСЂР°: РїРѕР»Рµ РІРІРѕРґР°, С„Р°Р№Р» */
+/* Интерфейс выбора: поле ввода, файл */
 .parsing_format {
   padding-top: 10px;
   text-align: center;
@@ -249,7 +249,7 @@ input[type="color"] {
     background-color: transparent;          
 }
 
-// РІРЅСѓС‚СЂРµРЅРЅСЏСЏ С‡Р°СЃС‚СЊ СЌР»РµРјРµРЅС‚Р°
+// внутренняя часть элемента
 input[type="color"]::-webkit-color-swatch-wrapper { 
   display:-webkit-flex;
   padding: 2px 2px;
@@ -259,10 +259,10 @@ input[type="color"]::-webkit-color-swatch-wrapper {
   height: 100%
 }
 
-// РєРІР°РґСЂР°С‚РёРє СЃ С†РІРµС‚РѕРј    
+// квадратик с цветом    
 input[type="color"]::-webkit-color-swatch { 
   background-color: #414141;
-  border: 1px solid transparent; // РµСЃР»Рё РЅР°Р№РґСѓ СѓРґР°С‡РЅРѕРµ СЃРѕС‡РµС‚Р°РЅРёРµ
+  border: 1px solid transparent; // если найду удачное сочетание
  -webkit-flex: 1;
  -webkit-user-modify: read-only !important;
 }
