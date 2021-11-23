@@ -1,0 +1,15 @@
+{
+    "name": "book-parser",
+    "description": "Simple book parser",
+    "type": "project",
+    "authors": [
+        {
+            "name": "MelnikovSergey",
+            "email": "sergeyandmelnikov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpoffice/phpword": "^0.18.2"
+    }
+}

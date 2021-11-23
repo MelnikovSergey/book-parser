@@ -38,7 +38,7 @@
   <div data-variant="second-tab">
     <!-- Парсинг файла --> 
     <form id="upload-container" method="POST" action="send.php">
-      <img id="upload-image" src="https://habrastorage.org/webt/dr/qg/cs/drqgcsoh1mosho2swyk3kk_mtwi.png">
+      <img id="upload-image" src="img/upload.png">
       <div>
         <input id="file-input" type="file" name="file" multiple>
         <label for="file-input">Выберите файл</label>
@@ -55,13 +55,15 @@
 </div>
 
 <div id="result" class="parse-result clearfix boxShadow">
-  <h2>Название данной книги найти не удалось!</h2>
-  <img src="img/some-cover.jpg" alt="" class="img-float img-border">
-  <p>
-    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, quis, nobis. Blanditiis aspernatur enim unde saepe magnam ipsum fuga accusamus, molestias error ea autem dolor adipisci officia minima, voluptate excepturi?</span>
-    <span>Ad neque sunt, reiciendis sit atque aliquam doloribus quaerat unde sapiente itaque modi earum quas deleniti necessitatibus, cumque nulla. Ad earum autem nostrum quibusdam. Dolores libero amet suscipit fuga in.</span>
-    <span>Aperiam nulla iste, molestiae reprehenderit facere. Optio incidunt est quos, aperiam odio reiciendis, dolorum atque repellendus at eaque quas eligendi, ut ipsum voluptate vero, fugiat molestiae! Necessitatibus molestiae, dolore quam.</span>
-    <span>Tempore repellat obcaecati harum vero accusantium nam voluptates a officia veniam delectus vel odit quam soluta ducimus quaerat ullam quidem corrupti deserunt amet qui, quibusdam provident cum, nihil sit! Aut?</span>
+  <h2>Виктор Гюго - Девяносто третий год</h2>
+  <img src="../TestData/cover.jpg" width="25%" alt="" class="img-float img-border">
+  <p>Автор: Гюго Виктор Мари<br>
+     Название: Девяносто третий год<br>
+     Жанр:<br>
+     Издательский дом: Мир книги, Литература<br>
+     Год издания: 2011г.
+  </p>
+  <p><strong>Аннотация:</strong><br>Великий французский писатель, поэт и драматург Виктор Гюго (1802–1885) – один из самых ярких представителей прогрессивно-романтической литературы XIX века. Вот уже более ста лет во всем мире зачитываются его блестящими романами «Собор Парижской Богоматери», «Отверженные», «Девяносто третий год»; со сцен театров не сходят драмы Гюго «Эрнани», «Мария Тюдор» и другие.В данном томе публикуется одно из самых значительных, ярких и смелых изображений Великой французской революции – роман «Девяносто третий год». Он состоит из коротких драматических эпизодов, полных захватывающих приключений и неожиданных сюжетных поворотов. На примере гражданской войны в Вандее между частями республиканской армии и отрядами монархических мятежников, поддерживаемыми местными крестьянами, писатель пытается решить общие для любой революции проблемы: как понимать справедливость; что важнее – политические убеждения или общечеловеческие ценности; оправдана ли революционная жестокость; почему возвышенная идея обращается в свою противоположность.
   </p>
 </div>
 
