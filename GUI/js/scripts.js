@@ -1,3 +1,20 @@
+$('.button__parse').click(function () {
+  var input = document.getElementById('entryFieldInput').value;
+  /* Информация о книге */
+  $.getJSON('https://parse.polytechnix.ru/?b=' + input + "&y=&data=full", function (data) {
+      if (input = data.Title) {
+          $('#title').html(data.Title);
+          $('#author').html("Автор: " + data.Author);
+          $('#year').html("Год: " + data.Year + "г.");
+          $('#description').html("Описание: " + data.Description);
+      } else {
+          $('#title').html("Извините, но нам не удалось найти книгу по указанному адресу. Проверьте пожалуйста ссылку");
+          $('#author').html("");
+          $('#year').html("");
+          $('#description').html("");
+      }
+});
+
 // функция для получения выделенного текста
 function getSelectedText(){
     var text = "";
